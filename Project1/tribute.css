@@ -1,0 +1,217 @@
+body{
+	background-image: url(https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274_960_720.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: black;
+	transition: background-image 0.5s ease-in-out;
+	margin: 0;
+	padding: 0;
+}
+.land-container {
+    background-image: url('https://www.isro.gov.in/media_isro/image/index/Chandrayaan3/MRM_4847.JPG.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.ulclass{
+	width: 97%;
+	background-color: black;
+	list-style-type:none;
+	position: fixed;
+    top: 0;
+    z-index: 1000; 
+	margin: 10px;
+	padding: 5px;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 20px;
+}
+.ulclass li{
+	display: inline;
+}
+.ulclass li a{
+	display: inline-block;
+	padding: 14px 12px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium 500;
+    font-style: normal;
+}
+.ulclass li a:hover{
+	background-color: white ;
+	color: orange;
+	border-radius: 20px;
+}
+.landingpage{
+	margin: auto;
+	width: 100%;
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 80px;
+	font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium 500;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    z-index: 1; 
+}
+.landingpage h1,
+.landingpage h2,
+.landingpage h3
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 8px;
+}
+.landingpage h2{
+	font-size: 40px;
+}
+.landingpage h3{
+	font-size: 20px;
+}
+.sectionspage{
+	margin: auto;
+	width: 100%;
+	padding-top: 50px;
+	text-align: center;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 80px;
+	font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium 500;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    z-index: 1; 
+}
+.container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .image-container {
+            flex: 1;
+            max-width: 50%;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 25px; /* Optional: Add border-radius to the image */
+        }
+
+        .content-container {
+            flex: 1;
+            max-width: 50%;
+            padding: 0 20px; /* Optional: Add padding to the content */
+        }
+
+        .content {
+            text-align: left;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            z-index: 1; 
+            font-family: "Libre Franklin", sans-serif;
+        }
+.gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .gallery-item {
+        	width: 300px; 
+            height: 200px;
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+ .caption {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border-radius: 0 0 8px 8px;
+            text-align: center;
+        }
+.quotes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .quotes-item {
+        	width: 300px; 
+            height: auto;
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .quotes-item:hover {
+            transform: scale(1.1);
+        }
+
+        .quotes-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
